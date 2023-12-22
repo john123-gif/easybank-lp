@@ -102,3 +102,55 @@ body{
    margin-top: 1rem;
 }
 
+.content1-section{
+    background-color: #F3F4F6;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    
+   
+}
+
+.text h1{
+    margin-left: 8rem;
+    font-size: 40px;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+    margin-top: 8rem;
+
+}
+
+.text p{
+    margin-left: 8rem;
+    font-size: 16px;
+    color: hsl(233, 8%, 62%);
+    width: 37rem;
+    line-height: 1.5rem;
+    margin-top: -12px;
+}
+
+
+.cards{
+    display: flex;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    text-align: start;
+    gap: 25px;
+    
+}
+
+.cards h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cards p{
+    font-size: 16px;
+    color: hsl(233, 8%, 62%);
+    width: 285px;
+    line-height: 1.5rem;
+    margin-top: 25px;
+    font-weight: 100;
+   
+  
+}
