@@ -10,13 +10,4 @@ const toggleMenu = () => {
         hamMenuList.style.display = 'none';
     }
 }
-
-// const checkImage = () => {
-//     if(hamMenuButton.style.backgroundImage === "url('./images/icons8-menu-50.png')"){
-//         hamMenuButton.style.backgroundImage = url('./images/icons8-close-50.png');
-//     } else {
-//         hamMenuButton.style.backgroundImage = url('./images/icons8-menu-50.png');
-//     }
-// }
-
 hamMenuButton.addEventListener('click', toggleMenu);
